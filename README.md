@@ -4,7 +4,7 @@ OpenShift-compatible variant of https://filebrowser.org/
 
 ## Getting Started
 
-1. Log in to OpenShift Container Platform (OCP) console and switch to 'Developer' view
+1. Log in to OpenShift Container Platform (OCP) web console and switch to 'Developer' view
 
 2. Click '+Add' and select 'From Dockerfile':
 
@@ -12,13 +12,15 @@ OpenShift-compatible variant of https://filebrowser.org/
 
    -  Dockerfile path: `Dockerfile` (default)
 
+   -  Application name: No Application group
+
    -  Name: `openshift-filebrowser-git` (just an example)
 
    -  Ensure that `Create a Route to the Application` is selected (default)
 
 3. Next, select the newly created _Deployment_ and click 'Actions → Add Storage'
 
-   - Either choose an existing _Claim_, or 'Create new claim':
+   - Either 'Use existing claim', or 'Create new claim':
 
        -   Storage Class: Select your storage class
 
